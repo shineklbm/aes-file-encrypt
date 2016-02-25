@@ -3,6 +3,7 @@
 namespace Shineklbm\AesFileEncryption;
 
 use Shineklbm\AesFileEncryption\AES256Implementation;
+use Exception;
 
 class AesFileEncryption
 {
