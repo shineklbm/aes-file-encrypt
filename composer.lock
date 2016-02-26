@@ -4,15 +4,13 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "940e7b0b08661a7ab4e82d8ada430039",
-    "content-hash": "6c73bcf43b0187d87dfff58c0bcabb8b",
+    "hash": "641418fe46b50f34661d36d8019d9fc1",
+    "content-hash": "dbc60eb0b594da236d6a304728d31850",
     "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "shineklbm/aes-file-encrypt": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
