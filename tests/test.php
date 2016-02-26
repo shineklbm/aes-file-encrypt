@@ -19,20 +19,11 @@ $decrypted_file = "README.decrypted.txt";
 //Ensure target file does not exist
 @unlink($encrypted_file);
 //Encrypt a file
-try{
-	$lib->encryptFile($file_to_encrypt, "1234", $encrypted_file);	
-}catch(Exception $e){
-	echo "File Not Found!";
-}
+$lib->encryptFile($file_to_encrypt, "1234", $encrypted_file);
 
 //Ensure file does not exist
 @unlink($decrypted_file);
 //Decrypt using same password
-try{
-	$lib->decryptFile($encrypted_file, "1234", $decrypted_file);
-}catch(Exception $e){
-	echo "File Not Found!";
-}
-
+$lib->decryptFile($encrypted_file, "1234", $decrypted_file);
 
 echo "Done";

@@ -1,16 +1,12 @@
 {
     "name": "shineklbm/aes-file-encrypt",
     "description": "An AES file encryption library based on http://aescrypt.com",
-    "keywords": ["aes", "aes-file", "file", "encryption", "security"],
     "license": "MIT",
-    "type": "library",
-    "version": "1.0.0",
     "authors": [{
         "name": "Shine Sudarsanan",
-        "email": "shineklbm@gmail.com",
-        "homepage": "http://shinesudarsanan.in",
-		"role": "Lead Architect"
+        "email": "shineklbm@gmail.com"
     }],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0"
     },

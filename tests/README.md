@@ -1,1 +1,1 @@
-I am here, but will be hidden
+This is a test file
