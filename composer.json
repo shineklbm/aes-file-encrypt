@@ -4,13 +4,13 @@
     "keywords": ["aes", "aes-file", "file", "encryption", "security"],
     "license": "MIT",
     "type": "library",
+    "version": "1.0.0",
     "authors": [{
         "name": "Shine Sudarsanan",
         "email": "shineklbm@gmail.com",
         "homepage": "http://shinesudarsanan.in",
 		"role": "Lead Architect"
     }],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0"
     },
